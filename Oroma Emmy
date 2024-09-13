@@ -1,7 +1,25 @@
+import java.util.scanner;
+public class my JavaScript {
+public static void main (string args[]){
+scanner sc = new scanner (system.in);
+
+//asking for the users name
+system.out.peintln("enter your name:");
+string name = sc.nextline();
+
+//asking for the users girlfriend name
+system.out.println("enter your girlfriend name":);
+string girlfriend name = sc.nextline();
+
+//asking for the users age
+system.out.println("how old are you?");
+int age = sc.nextint();
+
+system.out.println("name:" +name);
+system.out.println("girlfriend name:" +girlfriend name);
+system.out.println("age:" +age);
 
 
-
-
-
-
+//closing the  scanner
+sc.close();
 
